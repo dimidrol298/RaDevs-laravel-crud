@@ -28,7 +28,7 @@ class Test extends Model
      *
      * @var array
      */
-    protected array $fillable = [
+    protected $fillable = [
         'full_name',
         'test_date',
         'test_location',
@@ -42,7 +42,7 @@ class Test extends Model
      *
      * @var array
      */
-    protected array $hidden = [
+    protected $hidden = [
         'password',
         'remember_token',
     ];
