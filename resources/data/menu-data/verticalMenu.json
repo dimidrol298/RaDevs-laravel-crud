@@ -1,0 +1,31 @@
+{
+  "menu": [
+    {
+      "url": "home",
+      "name": "Home",
+      "icon": "home",
+      "slug": "home"
+    },
+    {
+      "name": "Pages",
+      "icon": "archive",
+      "slug": "",
+      "badge": "2",
+      "badgeClass": "badge rounded-pill badge-light-danger ms-auto me-1",
+      "submenu": [
+        {
+          "url": "users",
+          "name": "Users",
+          "icon": "circle",
+          "slug": "users"
+        },
+        {
+          "url": "tests",
+          "name": "Tests",
+          "icon": "circle",
+          "slug": "tests"
+        }
+      ]
+    }
+  ]
+}
